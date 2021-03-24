@@ -12,7 +12,7 @@ Suite Teardown    CloseAllBrowsers
 
 
 *** Test Cases ***
-Verify Reasons to Exist
+Reasons to Exist are in Code of Ethics Pdf
     Appstate  Gofore
     Download Code of Ethics
     Verify Reasons to Exist
