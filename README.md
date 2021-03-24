@@ -14,6 +14,6 @@ You can also run:
 ```
 robot -d output explore_ethics.robot
 ```
-to see why and how I overcame this problem.
+to see why they are failing, and how I overcame this problem.
 
 Enjoy!
