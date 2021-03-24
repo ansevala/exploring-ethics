@@ -32,10 +32,10 @@ Appstate
 Download Code of Ethics
     HoverText    About us
     ClickText    Code of Ethics
-    SaveFile     Download    Gofore-CodeOfEthics-2020-WEB-pages.pdf
+    SaveFile     Download    Gofore-CodeOfEthics.pdf
 
 Verify Reasons to Exist
-    UsePdf          Gofore-CodeOfEthics-2020-WEB-pages.pdf
+    UsePdf          Gofore-CodeOfEthics.pdf
     ${pdftext}=     GetPdfText
     Create File     pdfcontent.txt  ${pdftext}
     ${formattedpdftext}=  Normalize Text  ${pdftext}
